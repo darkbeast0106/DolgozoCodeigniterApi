@@ -11,6 +11,7 @@ class Dolgozo_model extends CI_Model {
     
     public function get_all()
     {
+        $this->db->order_by('id', 'desc');
         return $this->db->get('dolgozok')->result_array();
     }
 
