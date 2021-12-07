@@ -1,4 +1,4 @@
-# Dolgozó rest sertver
+# Dolgozó rest server
 
 Codeigniteter 3 alapú rest server egy egytáblás dolgozó adatbázishoz. 
 Ez egy oktatási célú projekt a BMSZC Petrik végzős szoftverfejlesztő halgatói számára.
