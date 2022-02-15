@@ -188,7 +188,9 @@ class Dolgozo extends REST_Controller
             'error' => true
         ];
         $this->response($data, $response_code);
-        die();
+		header('Content-Type: '. $this->output->get_header('Content-Type'));
+		echo $this->output->get_output();
+		exit;
     }
 }
 
